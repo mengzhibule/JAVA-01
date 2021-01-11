@@ -1,37 +1,168 @@
 Classfile /F:/dev/geektime/java����ѵ��Ӫ-�ؽ���/JAVA-01/Week_01/code/Hello.class
-  Last modified 2021-1-11; size 575 bytes
-  MD5 checksum 5a826fe80061372f0019a0df24ca163d
+  Last modified 2021-1-12; size 2902 bytes
+  MD5 checksum aecdef4e837050d21455370e0894bb50
   Compiled from "Hello.java"
-public class Hello
+public class code.Hello
   minor version: 0
   major version: 52
   flags: ACC_PUBLIC, ACC_SUPER
 Constant pool:
-   #1 = Methodref          #13.#24        // java/lang/Object."<init>":()V
-   #2 = Methodref          #12.#25        // Hello.testBasicType:()V
-   #3 = Long               4l
-   #5 = Float              5.5f
-   #6 = Double             6.6d
-   #8 = Long               50l
-  #10 = Long               30l
-  #12 = Class              #26            // Hello
-  #13 = Class              #27            // java/lang/Object
-  #14 = Utf8               <init>
-  #15 = Utf8               ()V
-  #16 = Utf8               Code
-  #17 = Utf8               LineNumberTable
-  #18 = Utf8               main
-  #19 = Utf8               ([Ljava/lang/String;)V
-  #20 = Utf8               testBasicType
-  #21 = Utf8               testArithmetic
-  #22 = Utf8               SourceFile
-  #23 = Utf8               Hello.java
-  #24 = NameAndType        #14:#15        // "<init>":()V
-  #25 = NameAndType        #20:#15        // testBasicType:()V
-  #26 = Utf8               Hello
-  #27 = Utf8               java/lang/Object
+    #1 = Methodref          #50.#100      // java/lang/Object."<init>":()V
+    #2 = Methodref          #49.#101      // code/Hello.testBasicType:()V
+    #3 = Methodref          #49.#102      // code/Hello.testArithmetic:()V
+    #4 = Methodref          #49.#103      // code/Hello.testLoop:()V
+    #5 = Long               4l
+    #7 = Float              5.5f
+    #8 = Double             6.6d
+   #10 = Long               50l
+   #12 = Long               30l
+   #14 = Class              #104          // java/lang/String
+   #15 = String             #105          // 1
+   #16 = String             #106          // 2
+   #17 = String             #107          // 3
+   #18 = String             #108          // 4
+   #19 = String             #109          // 5
+   #20 = String             #110          // 6
+   #21 = String             #111          // 7
+   #22 = String             #112          // 8
+   #23 = Fieldref           #113.#114     // java/lang/System.out:Ljava/io/PrintStream;
+   #24 = String             #115          // 演示for循环
+   #25 = Methodref          #116.#117     // java/io/PrintStream.println:(Ljava/lang/String;)V
+   #26 = String             #118          // 演示forEach循环
+   #27 = String             #119          // 演示while循环
+   #28 = String             #120          // 演示do-while循环
+   #29 = Class              #121          // java/util/Scanner
+   #30 = Fieldref           #113.#122     // java/lang/System.in:Ljava/io/InputStream;
+   #31 = Methodref          #29.#123      // java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+   #32 = Methodref          #29.#124      // java/util/Scanner.next:()Ljava/lang/String;
+   #33 = String             #125          // 演示if-else
+   #34 = Methodref          #14.#126      // java/lang/String.equals:(Ljava/lang/Object;)Z
+   #35 = String             #127          // run case one
+   #36 = String             #128          // run case two
+   #37 = String             #129          // run case three
+   #38 = String             #130          // run default case
+   #39 = String             #131          // 演示switch-case
+   #40 = Methodref          #14.#132      // java/lang/String.hashCode:()I
+   #41 = String             #133          // 演示跳转语句
+   #42 = String             #134          // break
+   #43 = String             #135          // 演示break
+   #44 = String             #136          // continue
+   #45 = String             #137          // 演示continue
+   #46 = Methodref          #14.#138      // java/lang/String.trim:()Ljava/lang/String;
+   #47 = Methodref          #14.#139      // java/lang/String.length:()I
+   #48 = String             #140          // 演示return
+   #49 = Class              #141          // code/Hello
+   #50 = Class              #142          // java/lang/Object
+   #51 = Utf8               <init>
+   #52 = Utf8               ()V
+   #53 = Utf8               Code
+   #54 = Utf8               LineNumberTable
+   #55 = Utf8               LocalVariableTable
+   #56 = Utf8               this
+   #57 = Utf8               Lcode/Hello;
+   #58 = Utf8               main
+   #59 = Utf8               ([Ljava/lang/String;)V
+   #60 = Utf8               args
+   #61 = Utf8               [Ljava/lang/String;
+   #62 = Utf8               testBasicType
+   #63 = Utf8               b
+   #64 = Utf8               B
+   #65 = Utf8               s
+   #66 = Utf8               S
+   #67 = Utf8               i
+   #68 = Utf8               I
+   #69 = Utf8               l
+   #70 = Utf8               J
+   #71 = Utf8               f
+   #72 = Utf8               F
+   #73 = Utf8               d
+   #74 = Utf8               D
+   #75 = Utf8               c
+   #76 = Utf8               C
+   #77 = Utf8               testArithmetic
+   #78 = Utf8               a
+   #79 = Utf8               e
+   #80 = Utf8               i1
+   #81 = Utf8               i2
+   #82 = Utf8               i3
+   #83 = Utf8               l1
+   #84 = Utf8               l2
+   #85 = Utf8               l3
+   #86 = Utf8               testLoop
+   #87 = Utf8               Ljava/lang/String;
+   #88 = Utf8               j
+   #89 = Utf8               arr
+   #90 = Utf8               index
+   #91 = Utf8               scanner
+   #92 = Utf8               Ljava/util/Scanner;
+   #93 = Utf8               next
+   #94 = Utf8               StackMapTable
+   #95 = Class              #61           // "[Ljava/lang/String;"
+   #96 = Class              #121          // java/util/Scanner
+   #97 = Class              #104          // java/lang/String
+   #98 = Utf8               SourceFile
+   #99 = Utf8               Hello.java
+  #100 = NameAndType        #51:#52       // "<init>":()V
+  #101 = NameAndType        #62:#52       // testBasicType:()V
+  #102 = NameAndType        #77:#52       // testArithmetic:()V
+  #103 = NameAndType        #86:#52       // testLoop:()V
+  #104 = Utf8               java/lang/String
+  #105 = Utf8               1
+  #106 = Utf8               2
+  #107 = Utf8               3
+  #108 = Utf8               4
+  #109 = Utf8               5
+  #110 = Utf8               6
+  #111 = Utf8               7
+  #112 = Utf8               8
+  #113 = Class              #143          // java/lang/System
+  #114 = NameAndType        #144:#145     // out:Ljava/io/PrintStream;
+  #115 = Utf8               演示for循环
+  #116 = Class              #146          // java/io/PrintStream
+  #117 = NameAndType        #147:#148     // println:(Ljava/lang/String;)V
+  #118 = Utf8               演示forEach循环
+  #119 = Utf8               演示while循环
+  #120 = Utf8               演示do-while循环
+  #121 = Utf8               java/util/Scanner
+  #122 = NameAndType        #149:#150     // in:Ljava/io/InputStream;
+  #123 = NameAndType        #51:#151      // "<init>":(Ljava/io/InputStream;)V
+  #124 = NameAndType        #93:#152      // next:()Ljava/lang/String;
+  #125 = Utf8               演示if-else
+  #126 = NameAndType        #153:#154     // equals:(Ljava/lang/Object;)Z
+  #127 = Utf8               run case one
+  #128 = Utf8               run case two
+  #129 = Utf8               run case three
+  #130 = Utf8               run default case
+  #131 = Utf8               演示switch-case
+  #132 = NameAndType        #155:#156     // hashCode:()I
+  #133 = Utf8               演示跳转语句
+  #134 = Utf8               break
+  #135 = Utf8               演示break
+  #136 = Utf8               continue
+  #137 = Utf8               演示continue
+  #138 = NameAndType        #157:#152     // trim:()Ljava/lang/String;
+  #139 = NameAndType        #158:#156     // length:()I
+  #140 = Utf8               演示return
+  #141 = Utf8               code/Hello
+  #142 = Utf8               java/lang/Object
+  #143 = Utf8               java/lang/System
+  #144 = Utf8               out
+  #145 = Utf8               Ljava/io/PrintStream;
+  #146 = Utf8               java/io/PrintStream
+  #147 = Utf8               println
+  #148 = Utf8               (Ljava/lang/String;)V
+  #149 = Utf8               in
+  #150 = Utf8               Ljava/io/InputStream;
+  #151 = Utf8               (Ljava/io/InputStream;)V
+  #152 = Utf8               ()Ljava/lang/String;
+  #153 = Utf8               equals
+  #154 = Utf8               (Ljava/lang/Object;)Z
+  #155 = Utf8               hashCode
+  #156 = Utf8               ()I
+  #157 = Utf8               trim
+  #158 = Utf8               length
 {
-  public Hello();
+  public code.Hello();
     descriptor: ()V
     flags: ACC_PUBLIC
     Code:
@@ -41,6 +172,9 @@ Constant pool:
          4: return
       LineNumberTable:
         line 6: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcode/Hello;
 
   public static void main(java.lang.String[]);
     descriptor: ([Ljava/lang/String;)V
@@ -48,10 +182,17 @@ Constant pool:
     Code:
       stack=0, locals=1, args_size=1
          0: invokestatic  #2                  // Method testBasicType:()V
-         3: return
+         3: invokestatic  #3                  // Method testArithmetic:()V
+         6: invokestatic  #4                  // Method testLoop:()V
+         9: return
       LineNumberTable:
-        line 8: 0
-        line 9: 3
+        line 9: 0
+        line 10: 3
+        line 11: 6
+        line 12: 9
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      10     0  args   [Ljava/lang/String;
 
   public static void testBasicType();
     descriptor: ()V
@@ -64,24 +205,33 @@ Constant pool:
          3: istore_1
          4: iconst_3
          5: istore_2
-         6: ldc2_w        #3                  // long 4l
+         6: ldc2_w        #5                  // long 4l
          9: lstore_3
-        10: ldc           #5                  // float 5.5f
+        10: ldc           #7                  // float 5.5f
         12: fstore        5
-        14: ldc2_w        #6                  // double 6.6d
+        14: ldc2_w        #8                  // double 6.6d
         17: dstore        6
         19: bipush        65
         21: istore        8
         23: return
       LineNumberTable:
-        line 15: 0
-        line 16: 2
-        line 17: 4
-        line 18: 6
-        line 19: 10
-        line 20: 14
-        line 21: 19
-        line 22: 23
+        line 16: 0
+        line 17: 2
+        line 18: 4
+        line 19: 6
+        line 20: 10
+        line 21: 14
+        line 22: 19
+        line 23: 23
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            2      22     0     b   B
+            4      20     1     s   S
+            6      18     2     i   I
+           10      14     3     l   J
+           14      10     5     f   F
+           19       5     6     d   D
+           23       1     8     c   C
 
   public static void testArithmetic();
     descriptor: ()V
@@ -114,9 +264,9 @@ Constant pool:
         30: iload         7
         32: idiv
         33: istore        8
-        35: ldc2_w        #8                  // long 50l
+        35: ldc2_w        #10                 // long 50l
         38: lstore        9
-        40: ldc2_w        #10                 // long 30l
+        40: ldc2_w        #12                 // long 30l
         43: lstore        11
         45: lload         9
         47: lload         11
@@ -124,18 +274,393 @@ Constant pool:
         50: lstore        13
         52: return
       LineNumberTable:
-        line 28: 0
-        line 29: 2
-        line 30: 4
-        line 32: 9
-        line 33: 11
-        line 34: 14
-        line 36: 21
-        line 37: 25
-        line 38: 28
-        line 40: 35
-        line 41: 40
-        line 42: 45
-        line 43: 52
+        line 27: 0
+        line 28: 2
+        line 29: 4
+        line 31: 9
+        line 32: 11
+        line 33: 14
+        line 35: 21
+        line 36: 25
+        line 37: 28
+        line 39: 35
+        line 40: 40
+        line 41: 45
+        line 42: 52
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            2      51     0     a   B
+            4      49     1     b   B
+            9      44     2     c   B
+           11      42     3     d   S
+           14      39     4     e   S
+           21      32     5     f   S
+           25      28     6    i1   I
+           28      25     7    i2   I
+           35      18     8    i3   I
+           40      13     9    l1   J
+           45       8    11    l2   J
+           52       1    13    l3   J
+
+  public static void testLoop();
+    descriptor: ()V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=7, args_size=0
+         0: bipush        8
+         2: anewarray     #14                 // class java/lang/String
+         5: dup
+         6: iconst_0
+         7: ldc           #15                 // String 1
+         9: aastore
+        10: dup
+        11: iconst_1
+        12: ldc           #16                 // String 2
+        14: aastore
+        15: dup
+        16: iconst_2
+        17: ldc           #17                 // String 3
+        19: aastore
+        20: dup
+        21: iconst_3
+        22: ldc           #18                 // String 4
+        24: aastore
+        25: dup
+        26: iconst_4
+        27: ldc           #19                 // String 5
+        29: aastore
+        30: dup
+        31: iconst_5
+        32: ldc           #20                 // String 6
+        34: aastore
+        35: dup
+        36: bipush        6
+        38: ldc           #21                 // String 7
+        40: aastore
+        41: dup
+        42: bipush        7
+        44: ldc           #22                 // String 8
+        46: aastore
+        47: astore_0
+        48: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        51: ldc           #24                 // String 演示for循环
+        53: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        56: iconst_0
+        57: istore_1
+        58: iload_1
+        59: aload_0
+        60: arraylength
+        61: if_icmpge     79
+        64: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        67: aload_0
+        68: iload_1
+        69: aaload
+        70: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        73: iinc          1, 1
+        76: goto          58
+        79: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        82: ldc           #26                 // String 演示forEach循环
+        84: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        87: aload_0
+        88: astore_1
+        89: aload_1
+        90: arraylength
+        91: istore_2
+        92: iconst_0
+        93: istore_3
+        94: iload_3
+        95: iload_2
+        96: if_icmpge     118
+        99: aload_1
+       100: iload_3
+       101: aaload
+       102: astore        4
+       104: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       107: aload         4
+       109: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       112: iinc          3, 1
+       115: goto          94
+       118: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       121: ldc           #27                 // String 演示while循环
+       123: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       126: iconst_0
+       127: istore_1
+       128: iload_1
+       129: aload_0
+       130: arraylength
+       131: if_icmpge     149
+       134: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       137: aload_0
+       138: iload_1
+       139: aaload
+       140: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       143: iinc          1, 1
+       146: goto          128
+       149: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       152: ldc           #28                 // String 演示do-while循环
+       154: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       157: iconst_0
+       158: istore_2
+       159: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       162: aload_0
+       163: iload_2
+       164: aaload
+       165: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       168: iinc          2, 1
+       171: iload_2
+       172: aload_0
+       173: arraylength
+       174: if_icmpge     159
+       177: new           #29                 // class java/util/Scanner
+       180: dup
+       181: getstatic     #30                 // Field java/lang/System.in:Ljava/io/InputStream;
+       184: invokespecial #31                 // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+       187: astore_3
+       188: aload_3
+       189: invokevirtual #32                 // Method java/util/Scanner.next:()Ljava/lang/String;
+       192: astore        4
+       194: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       197: ldc           #33                 // String 演示if-else
+       199: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       202: ldc           #15                 // String 1
+       204: aload         4
+       206: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       209: ifeq          223
+       212: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       215: ldc           #35                 // String run case one
+       217: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       220: goto          273
+       223: ldc           #16                 // String 2
+       225: aload         4
+       227: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       230: ifeq          244
+       233: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       236: ldc           #36                 // String run case two
+       238: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       241: goto          273
+       244: ldc           #17                 // String 3
+       246: aload         4
+       248: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       251: ifeq          265
+       254: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       257: ldc           #37                 // String run case three
+       259: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       262: goto          273
+       265: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       268: ldc           #38                 // String run default case
+       270: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       273: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       276: ldc           #39                 // String 演示switch-case
+       278: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       281: aload         4
+       283: astore        5
+       285: iconst_m1
+       286: istore        6
+       288: aload         5
+       290: invokevirtual #40                 // Method java/lang/String.hashCode:()I
+       293: tableswitch   { // 49 to 51
+                      49: 320
+                      50: 336
+                      51: 352
+                 default: 365
+            }
+       320: aload         5
+       322: ldc           #15                 // String 1
+       324: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       327: ifeq          365
+       330: iconst_0
+       331: istore        6
+       333: goto          365
+       336: aload         5
+       338: ldc           #16                 // String 2
+       340: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       343: ifeq          365
+       346: iconst_1
+       347: istore        6
+       349: goto          365
+       352: aload         5
+       354: ldc           #17                 // String 3
+       356: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       359: ifeq          365
+       362: iconst_2
+       363: istore        6
+       365: iload         6
+       367: tableswitch   { // 0 to 2
+                       0: 392
+                       1: 403
+                       2: 414
+                 default: 425
+            }
+       392: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       395: ldc           #35                 // String run case one
+       397: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       400: goto          433
+       403: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       406: ldc           #36                 // String run case two
+       408: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       411: goto          433
+       414: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       417: ldc           #37                 // String run case three
+       419: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       422: goto          433
+       425: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       428: ldc           #38                 // String run default case
+       430: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       433: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       436: ldc           #41                 // String 演示跳转语句
+       438: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       441: iconst_0
+       442: istore        5
+       444: iload         5
+       446: aload_0
+       447: arraylength
+       448: if_icmpge     539
+       451: ldc           #42                 // String break
+       453: aload         4
+       455: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       458: ifeq          472
+       461: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       464: ldc           #43                 // String 演示break
+       466: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       469: goto          539
+       472: ldc           #44                 // String continue
+       474: aload         4
+       476: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       479: ifeq          493
+       482: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       485: ldc           #45                 // String 演示continue
+       487: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       490: goto          533
+       493: aload         4
+       495: invokevirtual #46                 // Method java/lang/String.trim:()Ljava/lang/String;
+       498: invokevirtual #47                 // Method java/lang/String.length:()I
+       501: ifne          513
+       504: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       507: ldc           #48                 // String 演示return
+       509: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       512: return
+       513: aload         4
+       515: aload_0
+       516: iload_1
+       517: aaload
+       518: invokevirtual #34                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       521: ifeq          533
+       524: getstatic     #23                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       527: aload_0
+       528: iconst_1
+       529: aaload
+       530: invokevirtual #25                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       533: iinc          5, 1
+       536: goto          444
+       539: return
+      LineNumberTable:
+        line 46: 0
+        line 48: 48
+        line 49: 56
+        line 50: 64
+        line 49: 73
+        line 53: 79
+        line 54: 87
+        line 55: 104
+        line 54: 112
+        line 58: 118
+        line 59: 126
+        line 60: 128
+        line 61: 134
+        line 62: 143
+        line 65: 149
+        line 66: 157
+        line 69: 159
+        line 70: 168
+        line 71: 171
+        line 73: 177
+        line 74: 188
+        line 75: 194
+        line 76: 202
+        line 77: 212
+        line 78: 223
+        line 79: 233
+        line 80: 244
+        line 81: 254
+        line 83: 265
+        line 86: 273
+        line 87: 281
+        line 89: 392
+        line 90: 400
+        line 92: 403
+        line 93: 411
+        line 95: 414
+        line 96: 422
+        line 98: 425
+        line 102: 433
+        line 103: 441
+        line 104: 451
+        line 105: 461
+        line 106: 469
+        line 108: 472
+        line 109: 482
+        line 110: 490
+        line 112: 493
+        line 113: 504
+        line 114: 512
+        line 116: 513
+        line 117: 524
+        line 103: 533
+        line 120: 539
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+           58      21     1     i   I
+          104       8     4     i   Ljava/lang/String;
+          444      95     5     j   I
+           48     492     0   arr   [Ljava/lang/String;
+          128     412     1     i   I
+          159     381     2 index   I
+          188     352     3 scanner   Ljava/util/Scanner;
+          194     346     4  next   Ljava/lang/String;
+      StackMapTable: number_of_entries = 26
+        frame_type = 253 /* append */
+          offset_delta = 58
+          locals = [ class "[Ljava/lang/String;", int ]
+        frame_type = 250 /* chop */
+          offset_delta = 20
+        frame_type = 254 /* append */
+          offset_delta = 14
+          locals = [ class "[Ljava/lang/String;", int, int ]
+        frame_type = 248 /* chop */
+          offset_delta = 23
+        frame_type = 252 /* append */
+          offset_delta = 9
+          locals = [ int ]
+        frame_type = 20 /* same */
+        frame_type = 252 /* append */
+          offset_delta = 9
+          locals = [ int ]
+        frame_type = 253 /* append */
+          offset_delta = 63
+          locals = [ class java/util/Scanner, class java/lang/String ]
+        frame_type = 20 /* same */
+        frame_type = 20 /* same */
+        frame_type = 7 /* same */
+        frame_type = 253 /* append */
+          offset_delta = 46
+          locals = [ class java/lang/String, int ]
+        frame_type = 15 /* same */
+        frame_type = 15 /* same */
+        frame_type = 12 /* same */
+        frame_type = 26 /* same */
+        frame_type = 10 /* same */
+        frame_type = 10 /* same */
+        frame_type = 10 /* same */
+        frame_type = 249 /* chop */
+          offset_delta = 7
+        frame_type = 252 /* append */
+          offset_delta = 10
+          locals = [ int ]
+        frame_type = 27 /* same */
+        frame_type = 20 /* same */
+        frame_type = 19 /* same */
+        frame_type = 19 /* same */
+        frame_type = 250 /* chop */
+          offset_delta = 5
 }
 SourceFile: "Hello.java"
